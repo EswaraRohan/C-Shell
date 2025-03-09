@@ -2,7 +2,8 @@
 
 ## Overview
 
-The **C-Shell** project is a custom Unix shell implemented in C, designed to replicate and extend functionalities commonly found in standard Unix shells. This shell provides a user-friendly interface for command execution, file manipulation, and process management.
+The **C-Shell** project is a custom Unix shell implemented in C, designed to replicate and extend functionalities commonly found in standard Unix shells. This shell provides a user-friendly interface for process management, directory management, I/O redirection, piping, and signal handling using system calls. It has the ability to run commands as foreground and background.
+
 
 ## File Structure
 ```bash

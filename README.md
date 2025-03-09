@@ -1,3 +1,32 @@
+# C-Shell
+
+## Overview
+
+The **C-Shell** project is a custom Unix shell implemented in C, designed to replicate and extend functionalities commonly found in standard Unix shells. This shell provides a user-friendly interface for command execution, file manipulation, and process management.
+
+## File Structure
+```bash
+C-Shell/
+│-- src/                         # Source files for shell implementation
+│   ├── main.c                   # Entry point of the shell
+│   ├── prompt.c                 # Manages shell prompt display
+│   ├── cd.c                     # Implements 'cd' command
+│   ├── echo.c                   # Implements 'echo' command
+│   ├── pwd.c                    # Implements 'pwd' command
+│   ├── ls.c                     # Implements 'ls' command with -l and -a flags
+│   ├── history.c                # Implements command history feature
+│   ├── pinfo.c                  # Implements 'pinfo' command for process info
+│   ├── autocomplete.c           # Handles tab-based auto-completion
+│   ├── execute.c                # Handles execution of system and user commands
+│   ├── signal_handler.c         # Handles signals like SIGINT (Ctrl+C)
+│-- include/                     # Header files
+│   ├── headers.h                # Main header file with function prototypes
+│-- docs/                        # Documentation files
+│   ├── README.md                # Project documentation
+│-- makefile                     # Makefile to build the shell
+│-- LICENSE                      # Project License
+
+```
 # How to run
 
 - Open your teminal
